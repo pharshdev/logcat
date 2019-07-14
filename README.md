@@ -11,7 +11,7 @@ NOTE: This plugin fetches logs only on Android Devices presently.
 #### Add package to pubspec.yaml
 
 ```sh
-logcat: ^1.0.0
+logcat: ^1.0.1
 ```
 
 #### Add Import
