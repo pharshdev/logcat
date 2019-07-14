@@ -23,5 +23,10 @@ import 'package:logcat/logcat.dart';
 #### Use it anywhere
 
 ```sh
-Text(Logcat.exec());
+Future<void> _getLogs() async {
+    final String logs = await Logcat.execute();
+    setState(() {
+      // Update your UI
+    });
+  }
 ```

@@ -10,4 +10,3 @@ Demonstrates how to use the logcat plugin.
     });
   }
 ```
-
