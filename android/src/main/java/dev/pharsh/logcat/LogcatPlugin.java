@@ -57,6 +57,7 @@ public class LogcatPlugin implements FlutterPlugin, MethodCallHandler {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 log.append(line);
+                log.append('\n');
             }
             return log.toString();
         } catch (IOException e) {
